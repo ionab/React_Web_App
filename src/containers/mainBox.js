@@ -1,5 +1,7 @@
 import React from 'react';
 import TopStoriesList from "../components/TopStoriesList";
+import './mainBox.css';
+import TickerTape from "../components/TickerTape.js";
 
 class MainBox extends React.Component{
   constructor(props){
@@ -15,11 +17,18 @@ class MainBox extends React.Component{
   }
 
   render(){
-    
+
     return(
       <div>
-        <h1>NEW YORK TIMES</h1>
+      <div className="shutuped">
+        <img id="header"src="https://www.nytco.com/wp-content/themes/nytco/images/nytco/NYT-wordmark.png"/>
+        <TickerTape stories={this.state.stories}/>
+        <h2 className="top-stories">Top Stories</h2>
+
+        </div>
+        <div className="list">
       <TopStoriesList stories={this.state.stories}/>
+      </div>
     </div>
     )
   }

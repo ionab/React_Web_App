@@ -1,0 +1,18 @@
+#header{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-bottom: 2px solid;
+}
+.shutuped{
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+
+}
+.list{
+  padding-top: 400px;
+}

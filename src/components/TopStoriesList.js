@@ -1,5 +1,6 @@
 import React from 'react';
 import Story from "./Story.js"
+import './topStoriesList.css'
 
 const TopStoriesList = (props) => {
   if (!props.stories) return null;
@@ -8,9 +9,13 @@ const TopStoriesList = (props) => {
 
   )
   return(
-    <div>
-      <h2>Top Stories</h2>
-      {allTopStories}
+
+      <div>
+
+        <div className='allTopStories'>
+          {allTopStories}
+      </div>
+
     </div>
   )
 }

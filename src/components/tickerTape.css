@@ -1,0 +1,22 @@
+li {
+  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 100px;
+
+}
+
+.ticker01 {
+  animation: move 5s infinite;
+-webkit-animation: move 5s infinite;
+}
+
+#moveThing {
+
+}
+
+
+@keyframes move {
+    from {right: 0px;}
+    to {right: 200px;}
+}
