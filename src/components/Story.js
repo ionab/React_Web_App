@@ -15,7 +15,6 @@ import "./story.css"
         <h3 className='title'>{props.story.title}</h3>
         <div>
           {image}
-
         </div>
         <p className="abstract">{props.story.abstract}</p>
         <a href={props.story.url}>Read More</a>
