@@ -23,4 +23,5 @@ import "./story.css"
       </div>
     )
 }
+
 export default Story;
